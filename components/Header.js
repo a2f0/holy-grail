@@ -13,6 +13,9 @@ const Header = (props) => (
         <div className={holyGrail.leftColumn}>
           <div className={holyGrail.flexContainerLeftAlign}>
             <div className={holyGrail.menuItem}>
+                <Link href="/">Index</Link>
+            </div>
+            <div className={holyGrail.menuItem}>
                 <Link href="/left1">Left 1</Link>
             </div>
             <div className={holyGrail.menuItem}>
