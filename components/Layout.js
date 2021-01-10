@@ -1,22 +1,26 @@
 
 import holyGrail from '../styles/HolyGrail.module.css'
 import Header from './Header';
+import Body from './Body';
 import Footer from './Footer';
 
 const Layout = props => (
-    <>
-        <Header/>
-        <div className={holyGrail.mainContainer}>
-            <main className={holyGrail.main}>
-                <div className={holyGrail.mainGutterLeft}>Content</div>
-                <div className={holyGrail.mainBody}>
-                    {props.children}
-                </div>
-                <div className={holyGrail.mainGutterRight}>Content</div>
-            </main>
+  <>
+    <div className={holyGrail.mainContainer}>
+      <main className={holyGrail.main}>
+        <div className={holyGrail.mainGutterLeft}>test</div>
+        <div className={holyGrail.mainColumn}>
+          <Header/>
+          <Body>
+            {props.children}
+          </Body>
+          <Footer/>
         </div>
-        <Footer/>
-    </>
+        <div className={holyGrail.mainGutterRight}>test</div>
+
+      </main>
+    </div>
+  </>
 );
 
 export default Layout;
