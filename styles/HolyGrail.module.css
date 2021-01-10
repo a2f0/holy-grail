@@ -1,119 +1,115 @@
 .mainContainer {
-    margin-left: calc(100vw - 100%);
-    padding: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+  margin-left: calc(100vw - 100%);
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .flexContainerColumnPageWidth {
-    width: 100%;
-    background-color: pink;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .flexContainerLeftAlign {
-    background-color: red;
-    display: flex;
-    justify-content: flex-start;
+  background-color: red;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .flexContainerCenterAlign {
-    background-color: orange;
-    display: flex;
-    justify-content: center;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
 }
 
 .flexContainerRightAlign {
-    background-color: blue;
-    display: flex;
-    justify-content: flex-end;
+  background-color: blue;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .menuItem {
-    background-color: purple;
+  background-color: purple;
 }
 
 .leftColumn {
-    flex: 1;
-    background-color: rgb(21, 233, 248);
+  flex: 1;
+  background-color: rgb(21, 233, 248);
 }
 
 .centerColumn {
-    flex: 1;
-    background-color: purple;
+  flex: 1;
+  background-color: purple;
 }
 
 .rightColumn {
-    flex: 1;
-    background-color: blue;
+  flex: 1;
+  background-color: blue;
 }
 
 .main {
-    flex: 1;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    background-color: green;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: green;
 }
 
 .mainGutterLeft {
-    position: sticky;
-    top: var(--header-height);
-    background: blue;
-    flex-grow: 1;
-
+  position: sticky;
+  top: var(--header-height);
+  background: blue;
+  flex-grow: 1;
 }
 
 .mainColumn {
-    background: yellow;
-    width: var(--main-width);
-    min-height: 100vh;
+  background: yellow;
+  width: var(--main-width);
+  min-height: 100vh;
 }
 
 .mainGutterRight {
-    position: sticky;
-    top: var(--header-height);
-    background: pink;
-    flex-grow: 1;
+  position: sticky;
+  top: var(--header-height);
+  background: pink;
+  flex-grow: 1;
 }
 
 .header {
-    height: var(--header-height);
-    color: white;
-    background-color: black;
-    justify-content: center;
-    align-items: center;
-    position: sticky;
-    top: 0;
+  height: var(--header-height);
+  color: white;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
 }
 
 .bodyContainer {
-    min-height: calc(100vh - var(--header-height) - var(--footer-height));
-    display: flex;
-    flex-direction: column;
-    background-color: red;
+  min-height: calc(100vh - var(--header-height) - var(--footer-height));
+  display: flex;
+  flex-direction: column;
+  background-color: red;
 }
 
 .body {
-   flex: 1;
+  flex: 1;
 }
 
-
 .footer {
-    height: var(--header-height);
-    color: white;
-    background-color: black;
-    justify-content: center;
-    align-items: center;
-    position: sticky;
-    bottom: 0;
-    width: var(--main-width);
-
+  height: var(--header-height);
+  color: white;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  bottom: 0;
+  width: var(--main-width);
 }
